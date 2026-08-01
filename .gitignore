@@ -32,3 +32,9 @@ Makefile
 
 # Configuración de CLion
 .idea/
+
+# Archivos objeto
+obj/
+
+# Ejecutables
+bin/
