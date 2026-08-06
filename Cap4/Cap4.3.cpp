@@ -6,7 +6,6 @@
      between two neighboring cities.
      Find and print the mean distance between two neighboring cities.
 */
-
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -27,10 +26,8 @@ int main(){
 			down = x;
 			first = false;
 		}
-		
 		if (x > up) up = x;
 		else if (x < down) down = x;
-
 	}
 		
 	cout << "Your sumatory is: " << sum << "km\n"
